@@ -1,0 +1,27 @@
+/* styles.css CORREGIDO */
+.root {
+    background-color: #f4f4f4; /* Eliminar prefijo -fx */
+}
+
+.button {
+    background-color: #4CAF50; /* Propiedad estándar */
+    color: white; /* En vez de -fx-text-fill */
+    font-size: 14px;
+    padding: 10px 20px; /* Propiedad estándar */
+    border-radius: 5px; /* Propiedad estándar */
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.text-field {
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.list-view {
+    font-size: 14px;
+    border-radius: 5px;
+}
